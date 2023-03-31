@@ -1,0 +1,94 @@
+:root {
+  --logo-link-color-iris: #4d5ae5ff;
+  --color-ocean: #404bbfff;
+  --h-color-navy-blue: #2e2f42ff;
+  --color-green: #31d0aaff;
+  --p-color-slate: #434455ff;
+  --color-light-slate: #8e8f99ff;
+  --color-cornflower: #e7e9fcff;
+  --color-cloud: #f4f4fdff;
+  --color-navy-blue-modal: #2e2f4266;
+  --color-grey: #2e2f42b3;
+  --color-white: #ffffffff;
+  --color-dairy: #fcfcfcff;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  color: var(--p-color-slate);
+  background-color: var(--color-white);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--h-color-navy-blue);
+}
+
+/*Головна сторінка*/
+
+/*Логитип*/
+.logo {
+  color: var(--logo-link-color-iris);
+}
+.logo-header {
+  color: var(--h-color-navy-blue);
+}
+.logo-footer {
+  color: var(--color-cloud);
+}
+
+/*Шапка сайту !*/
+.link-style {
+  color: var(--h-color-navy-blue);
+}
+.link-style:active {
+  color: var(--color-ocean);
+}
+
+.adress-style {
+  color: var(--p-color-slate);
+}
+.adress-style:active {
+  color: var(--color-ocean);
+}
+/* Hero */
+.hero-text {
+  color: var(--color-white);
+}
+.hero-button {
+  color: var(--color-white);
+  background-color: var(--logo-link-color-iris);
+  background-color: var(--color-ocean);
+}
+
+/*section 1*/
+
+/*section 2 What are we doing*/
+
+/*section 3 Our Team*/
+
+/*Футер*/
+.footer-text {
+  color: var(--color-cloud);
+}
+.footer-color {
+  background-color: var(--h-color-navy-blue);
+}
+
+/*Portfolio*/
+.portfolio-button {
+  color: var(--logo-link-color-iris);
+  background-color: var(--color-cloud);
+}
+.portfolio-button:hover {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
