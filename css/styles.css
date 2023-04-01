@@ -124,7 +124,9 @@ h6 {
 
   cursor: pointer;
 }
-.hero-button:hover .hero-button:focus {
+
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--color-ocean);
 }
 
