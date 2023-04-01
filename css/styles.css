@@ -70,8 +70,14 @@ a {
 .logo-footer {
   color: var(--color-cloud);
 }
+.link {
+  text-decoration: none;
+}
+/*Шапка сайту header*/
+.header-address {
+  font-style: normal;
+}
 
-/*Шапка сайту !*/
 .list {
   list-style: none;
 }
@@ -95,7 +101,7 @@ a {
 .adress-style:active {
   color: var(--color-ocean);
 }
-/* Hero */
+/*section 1 Hero */
 .hero-section {
   background-color: var(--h-color-navy-blue);
 }
