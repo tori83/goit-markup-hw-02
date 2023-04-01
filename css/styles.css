@@ -70,12 +70,8 @@ a {
 .logo-footer {
   color: var(--color-cloud);
 }
-.link {
-  text-decoration: none;
-}
 
 /*Шапка сайту !*/
-
 .list {
   list-style: none;
 }
@@ -100,11 +96,16 @@ a {
   color: var(--color-ocean);
 }
 /* Hero */
+.hero-section {
+  background-color: var(--h-color-navy-blue);
+}
 .hero-text {
   color: var(--color-white);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   color: var(--color-white);
@@ -121,28 +122,42 @@ a {
 
   cursor: pointer;
 }
-.hero-button:hover {
+.hero-button:hover .hero-button:focus {
   background-color: var(--color-ocean);
 }
 
-/*section 1*/
+/*section 2*/
+.section-title {
+  text-align: center;
+}
 .p-text {
   font-weight: 400;
   color: var(--p-color-slate);
 }
 
-/*section 2 What are we doing*/
+/*section 3 What are we doing*/
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
 }
 .title {
   font-size: 20px;
   line-height: 1.2;
 }
-/*section 3 Our Team*/
+/*section 4 Our Team*/
+.our-section {
+  background-color: var(--color-cloud);
+}
+.title {
+  text-align: center;
+}
+
+.li-color {
+  background-color: var(--color-white);
+}
 
 /*Футер*/
 .footer-text {
@@ -157,8 +172,11 @@ a {
   color: var(--logo-link-color-iris);
   background-color: var(--color-cloud);
   cursor: pointer;
+  font-family: inherit;
+  letter-spacing: 0.04em;
 }
-.portfolio-button:hover {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
