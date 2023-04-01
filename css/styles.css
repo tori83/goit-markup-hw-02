@@ -24,12 +24,6 @@
   --text-transform: none;
 }
 
-a {
-  text-decoration: none;
-}
-ul {
-  list-style: none;
-}
 body {
   color: var(--p-color-slate);
   background-color: var(--color-white);
@@ -51,12 +45,16 @@ h6 {
   color: var(--h-color-navy-blue);
 }
 
+a {
+  text-decoration: none;
+}
+
 /*Головна сторінка*/
 
 /*Логитип*/
 .logo {
   color: var(--logo-link-color-iris);
-  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -72,8 +70,16 @@ h6 {
 .logo-footer {
   color: var(--color-cloud);
 }
+.link {
+  text-decoration: none;
+}
 
 /*Шапка сайту !*/
+
+.list {
+  list-style: none;
+}
+
 .link-style {
   color: var(--h-color-navy-blue);
 }
