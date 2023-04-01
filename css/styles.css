@@ -84,6 +84,8 @@ a {
   color: var(--h-color-navy-blue);
 }
 
+.link-style:hover,
+.link-style:focus,
 .link-style:active {
   color: var(--color-ocean);
 }
