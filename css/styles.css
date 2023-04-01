@@ -77,16 +77,19 @@ h6 {
 .link-style {
   color: var(--h-color-navy-blue);
 }
+
 .link-style:active {
   color: var(--color-ocean);
 }
 
 .adress-style {
   color: var(--p-color-slate);
+  font-weight: 400;
 }
+.adress-style:hover,
+.adress-style:focus,
 .adress-style:active {
   color: var(--color-ocean);
-  font-weight: 400;
 }
 /* Hero */
 .hero-text {
@@ -98,7 +101,6 @@ h6 {
 .hero-button {
   color: var(--color-white);
   background-color: var(--logo-link-color-iris);
-  background-color: var(--color-ocean);
 
   font-family: inherit;
   font-style: normal;
@@ -108,18 +110,24 @@ h6 {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: var(--color-ocean);
 }
 
 /*section 1*/
 .p-text {
   font-weight: 400;
+  color: var(--p-color-slate);
 }
 
 /*section 2 What are we doing*/
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 1.11;
   text-transform: capitalize;
 }
 .title {
@@ -140,6 +148,7 @@ h6 {
 .portfolio-button {
   color: var(--logo-link-color-iris);
   background-color: var(--color-cloud);
+  cursor: pointer;
 }
 .portfolio-button:hover {
   color: var(--color-white);
