@@ -134,6 +134,14 @@ h6 {
 .section-title {
   text-align: center;
 }
+.title {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+
 .p-text {
   font-weight: 400;
   color: var(--p-color-slate);
@@ -147,16 +155,12 @@ h6 {
   text-transform: capitalize;
   text-align: center;
 }
-.title {
-  font-size: 20px;
-  line-height: 1.2;
-}
+
 /*section 4 Our Team*/
+
 .our-section {
   background-color: var(--color-cloud);
-}
-.title {
-  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .li-color {
