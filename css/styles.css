@@ -133,7 +133,12 @@ h6 {
 /*section 2*/
 .section-title {
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
 }
+
 .title {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -148,13 +153,6 @@ h6 {
 }
 
 /*section 3 What are we doing*/
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-  text-align: center;
-}
 
 /*section 4 Our Team*/
 
